@@ -88,7 +88,7 @@ const AmountInput = ({
   };
 
   return (
-    <div className="relative border border-gray-200 rounded-xl p-4 bg-white hover:border-gray-300 transition-colors focus-within:border-[#0D2B2A] focus-within:ring-2 focus-within:ring-[#0D2B2A]/10">
+    <div className="relative border border-gray-200 rounded-3xl p-4 bg-white hover:border-gray-300 transition-colors focus-within:border-[#0D2B2A] focus-within:ring-2 focus-within:ring-[#0D2B2A]/10">
       <label className="block text-sm text-gray-500 mb-2">{label}</label>
       
       <div className="flex items-center justify-between gap-4">
@@ -119,7 +119,7 @@ const AmountInput = ({
           <button
             type="button"
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors border border-gray-200"
+            className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 hover:bg-gray-100 rounded-full transition-colors border border-gray-200"
             aria-expanded={isDropdownOpen}
             aria-haspopup="listbox"
           >
@@ -145,7 +145,7 @@ const AmountInput = ({
 
           {/* Dropdown */}
           {isDropdownOpen && (
-            <div className="absolute right-0 z-50 mt-2 w-48 bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden">
+            <div className="absolute right-0 z-50 mt-2 w-48 bg-white border border-gray-200 rounded-3xl shadow-lg overflow-hidden">
               {/* Search */}
               {searchable && (
                 <div className="p-2 border-b border-gray-100">
@@ -169,7 +169,7 @@ const AmountInput = ({
                       placeholder="Search"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-full pl-8 pr-3 py-1.5 text-sm border border-gray-200 rounded-lg focus:outline-none focus:border-[#0D2B2A]"
+                      className="w-full pl-8 pr-3 py-1.5 text-sm border border-gray-200 rounded-full focus:outline-none focus:border-[#0D2B2A]"
                     />
                   </div>
                 </div>

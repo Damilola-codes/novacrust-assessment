@@ -32,20 +32,6 @@ export const cryptoTokens: CryptoToken[] = [
     icon: '/BNB.png',
     color: '#26A17B',
   },
-  {
-    id: 'btc',
-    symbol: 'BTC',
-    name: 'Bitcoin',
-    icon: '/BNB2.png',
-    color: '#F7931A',
-  },
-  {
-    id: 'usdc',
-    symbol: 'USDC',
-    name: 'USD Coin',
-    icon: '/CRYPTO1.png',
-    color: '#2775CA',
-  },
 ];
 
 export const fiatCurrencies: FiatCurrency[] = [

@@ -21,7 +21,7 @@ const Card = ({
   return (
     <div
       className={`
-        bg-white rounded-2xl shadow-sm border border-gray-100
+        bg-white rounded-[2rem] shadow-sm border border-gray-100
         ${paddingSizes[padding]}
         ${className}
       `}

@@ -79,7 +79,7 @@ const CryptoConverter = ({ onContinue }: CryptoConverterProps) => {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white flex items-center justify-center p-2 sm:p-4 md:p-6 lg:p-8">
       <div className="w-full max-w-md sm:max-w-lg">
         {/* Card Container */}
-        <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
+        <div className="bg-white rounded-[2.5rem] shadow-xl border border-gray-100 overflow-hidden">
           {/* Tab Navigation */}
           <div className="px-4 sm:px-6 pt-6 pb-4">
             <TabNav
