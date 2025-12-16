@@ -158,7 +158,7 @@ const Dropdown = ({
                     placeholder="Search"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:border-[#0D2B2A] focus:ring-1 focus:ring-[#0D2B2A]/20"
+                    className="w-full pl-10 pr-4 py-2 text-base border border-gray-200 rounded-lg focus:outline-none focus:border-[#0D2B2A] focus:ring-1 focus:ring-[#0D2B2A]/20"
                   />
                 </div>
               </div>

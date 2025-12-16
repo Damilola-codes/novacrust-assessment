@@ -13,7 +13,7 @@ export const cryptoTokens: CryptoToken[] = [
     symbol: 'USDT',
     name: 'USDT - CELO',
     network: 'CELO',
-    icon: '/CRYPTO1.png',
+    icon: '/BNB2.png',
     color: '#26A17B',
   },
   {

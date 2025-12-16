@@ -169,7 +169,7 @@ const AmountInput = ({
                       placeholder="Search"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-full pl-8 pr-3 py-1.5 text-sm border border-gray-200 rounded-full focus:outline-none focus:border-[#0D2B2A]"
+                      className="w-full pl-8 pr-3 py-1.5 text-base border border-gray-200 rounded-full focus:outline-none focus:border-[#0D2B2A]"
                     />
                   </div>
                 </div>
