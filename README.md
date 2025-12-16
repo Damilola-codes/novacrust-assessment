@@ -2,21 +2,21 @@
 
 A modern, responsive crypto checkout experience built with Next.js 15, React 19, and TypeScript. This project implements 2 screens from the provided Figma design.
 
-## 🚀 Live Demo
+## Live Demo
 
-**Vercel:** [https://novacrust-assessment-damilola-codes-projects.vercel.app](https://novacrust-assessment-damilola-codes-projects.vercel.app)
+**Vercel:** [https://dami-novacrust-assessment.vercel.app](https://dami-novacrust-assessment.vercel.app)
 
-## 📋 Assessment Requirements
+## Assessment Requirements
 
 ### Task
 > Select any 2 pages/screens from the Figma design and convert them into code.
 
 ### Requirements Met
-- ✅ Responsive design (desktop + mobile)
-- ✅ Clean component structure
-- ✅ Basic form state handling
+- Responsive design (desktop + mobile)
+- Clean component structure
+- Basic form state handling
 
-## 📸 Screens Implemented
+## Screens Implemented
 
 ### 1. Crypto Converter Screen (Main Page)
 The main converter interface where users can:
@@ -48,7 +48,7 @@ A multi-step form for entering recipient information:
 - **Styling**: Tailwind CSS 4
 - **Font**: Inter (Google Fonts)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -78,7 +78,7 @@ frontend/
 └── package.json
 ```
 
-## 🏃‍♂️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ npm run build
 npm start
 ```
 
-## 🎨 Assumptions & Trade-offs
+## Assumptions & Trade-offs
 
 ### Assumptions Made
 
@@ -163,7 +163,7 @@ npm start
 | `PhoneInput` | Country code selector, formatted input |
 | `RecipientDetails` | Multi-step form, back navigation, step indicators |
 
-## 📄 License
+## License
 
 This project was created as part of a technical assessment for NovaCrust.
 
