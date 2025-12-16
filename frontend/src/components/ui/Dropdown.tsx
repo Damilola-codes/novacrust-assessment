@@ -132,7 +132,7 @@ const Dropdown = ({
         {/* Dropdown Menu */}
         {isOpen && (
           <div
-            className="absolute z-50 w-full mt-2 bg-white border border-gray-200 rounded-full shadow-lg overflow-hidden"
+            className="absolute z-50 w-full mt-2 bg-white border border-gray-200 rounded-2xl shadow-lg overflow-hidden"
             role="listbox"
           >
             {/* Search Input */}
