@@ -41,7 +41,7 @@ A multi-step form for entering recipient information:
   - Phone number with country code selector
   - Email address input
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
