@@ -96,7 +96,7 @@ const Dropdown = ({
           type="button"
           onClick={() => setIsOpen(!isOpen)}
           className={`
-            w-full px-4 py-3.5 rounded-xl border text-left
+            w-full px-4 py-3.5 rounded-full border text-left
             flex items-center justify-between
             transition-all duration-200
             ${isOpen ? 'border-[#0D2B2A] ring-2 ring-[#0D2B2A]/10' : 'border-gray-200 hover:border-gray-300'}
