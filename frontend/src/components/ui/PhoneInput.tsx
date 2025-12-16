@@ -88,7 +88,7 @@ const PhoneInput = ({
       </label>
       <div
         className={`
-          flex items-center border rounded-xl overflow-hidden transition-all
+          flex items-center border rounded-full overflow-hidden transition-all
           ${error ? 'border-red-300' : 'border-gray-200 focus-within:border-[#0D2B2A] focus-within:ring-2 focus-within:ring-[#0D2B2A]/10'}
         `}
       >

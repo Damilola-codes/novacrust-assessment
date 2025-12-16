@@ -190,7 +190,7 @@ const RecipientDetails = ({ onBack, onNext }: RecipientDetailsProps) => {
                     onChange={handleAccountNumberChange}
                     placeholder="Enter your account number"
                     className={`
-                      w-full px-4 py-3.5 rounded-xl border transition-all
+                      w-full px-4 py-3.5 rounded-full border transition-all
                       focus:outline-none focus:ring-2 focus:ring-[#0D2B2A]/10
                       ${errors.accountNumber ? 'border-red-300 focus:border-red-500' : 'border-gray-200 focus:border-[#0D2B2A]'}
                     `}
@@ -206,7 +206,7 @@ const RecipientDetails = ({ onBack, onNext }: RecipientDetailsProps) => {
                   <label className="block text-sm font-medium text-[#013941] mb-2">
                     Account name
                   </label>
-                  <div className="w-full px-4 py-3.5 rounded-xl border border-gray-200 bg-gray-50">
+                  <div className="w-full px-4 py-3.5 rounded-full border border-gray-200 bg-gray-50">
                     {isVerifying ? (
                       <div className="flex items-center gap-2 text-gray-500">
                         <svg
@@ -256,7 +256,7 @@ const RecipientDetails = ({ onBack, onNext }: RecipientDetailsProps) => {
                     }}
                     placeholder="Enter recipient email"
                     className={`
-                      w-full px-4 py-3.5 rounded-xl border transition-all
+                      w-full px-4 py-3.5 rounded-full border transition-all
                       focus:outline-none focus:ring-2 focus:ring-[#0D2B2A]/10
                       ${errors.email ? 'border-red-300 focus:border-red-500' : 'border-gray-200 focus:border-[#0D2B2A]'}
                     `}
@@ -295,11 +295,6 @@ const RecipientDetails = ({ onBack, onNext }: RecipientDetailsProps) => {
             </div>
           </div>
         </div>
-
-        {/* Footer */}
-        <p className="text-center text-sm text-gray-500 mt-6">
-          Powered by <span className="font-semibold text-[#0D2B2A]">NovaCrust</span>
-        </p>
       </div>
     </div>
   );
